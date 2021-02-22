@@ -16,9 +16,6 @@ spec:
       containers:
         - name: mosquitto
           image: eclipse-mosquitto
-          env:
-          - name: "DUMMY"
-            value: "2"
           ports:
           - containerPort: 1883
           volumeMounts:
